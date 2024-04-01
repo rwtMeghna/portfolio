@@ -2,7 +2,7 @@ import React from 'react'
 import "./about.css"
 import meg2 from "../../Assessts/2.jpeg"
 import CV from "../../Assessts/meg_cv.pdf";
-import Info from './Info';
+import Info from '../Info/Info.jsx';
 
 const About = () => {
   return (
@@ -20,6 +20,7 @@ const About = () => {
             <div className="about__data">
             
              <Info/>
+
                 <p className="about__description">
                 I'm a frontend developer who specializes in building numerous UI/UX interfaces.
                 </p>
