@@ -47,7 +47,7 @@ const toggleTab=(index)=>{
                     </p>
 
 
-                    <ul className="services__modal-services flex">
+                    <ul className="services__modal-services ">
 
                         <li className="services__modal-service">
                             <i className="uil uil-check-circle services__modal_icon "></i>
@@ -90,10 +90,6 @@ Postman testing.</p>
 
 
 <div className="services__content">
-
-
-
-
 
            <div>
             <i className="uil uil-web-grid services__icon"></i>
