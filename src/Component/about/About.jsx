@@ -2,7 +2,7 @@ import React from 'react'
 import "./about.css"
 import meg2 from "../../Assessts/2.jpeg"
 import CV from "../../Assessts/meg_cv.pdf";
-import Info from './Info';
+import Info from './Info.jsx';
 
 const About = () => {
   return (
