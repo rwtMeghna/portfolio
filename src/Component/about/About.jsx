@@ -1,8 +1,8 @@
 import React from 'react'
 import "./about.css"
-import AboutImg from "../../Assessts/2.jpeg";
+import meg2 from "../../Assessts/2.jpeg"
 import CV from "../../Assessts/meg_cv.pdf";
-import Info from "./info";
+import Info from './Info';
 
 const About = () => {
   return (
@@ -13,14 +13,15 @@ const About = () => {
         <span className="section__subtitle">My Introduction</span>
 
         <div className="about__conatiner conatiner grid">
-            <img src={AboutImg} alt=""  className='about__img' />
+            <img src={meg2} alt=""  className='about__img' />
 
             <div className="about__data">
-                <Info/>
+            
+             <Info/>
                 <p className="about__description">
                 I'm a frontend developer who specializes in building numerous UI/UX interfaces.
                 </p>
-
+                
                 <a download="" href={CV} className="button button--flex">Download CV
                 <svg
                 class="button__icon"
@@ -49,9 +50,9 @@ const About = () => {
               </svg>
                 </a>
             </div>
-        </div>
+    </div>
     </section>
   )
 }
 
-export default About;""
+export default About;

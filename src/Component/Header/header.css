@@ -6,6 +6,7 @@
     z-index: var(--z-fixed);
 
   background-color: var(--body-color);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
 }
 
 .nav{
@@ -37,10 +38,13 @@
 .nav__toggle,
 .nav__icon{
     display: none;
+}s
+.nav__logo{
+ font-size:large;
+ font-weight: 800;
 }
-/* .nav__logo{
-    display: none;
-} */
+
+
 .nav__link{
     display: flex;
     flex-direction: column;
@@ -58,10 +62,16 @@ color:var(--title-color-dark);
 }
 
 
+.scroll-header{
+    box-shadow:0 -1px 4px rgba(0, 0, 0, 0.15);
+}
+
+
+
 
 @media screen and (max-width:768px){
     .header{
-        top:initial;
+        top:initial;;
         bottom:0;
     }
 
