@@ -6,7 +6,6 @@ import Img3 from "../../Assessts/03.png";
 import Img5 from "../../Assessts/05.png";
 import Img10 from "../../Assessts/10.png"
 
-
 const Info = () => {
 
 const [toggleState , setToggleState]=useState(0);
@@ -43,7 +42,7 @@ const toggleTab=(index)=>{
 
                     <h3 className="servies__modal-title">Networking Engineer</h3>
                     <p className="services__modal-description">
-                       1 years of experince
+                       1 years of experience
                     </p>
 
 
